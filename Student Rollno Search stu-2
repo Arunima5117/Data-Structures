@@ -3,17 +3,17 @@ using namespace std;
 int main()
 {
   int rollno[5];
-  int searchid;
+  int searchroll;
  cout<<"Enter your Roll Number:";
  for(int i=0;i<5;i++)
 {
   cin>>rollno[i];
 }
 cout<<"Enter Roll Number to search:";
-cin>>searchid;
+cin>>searchroll;
 for (int i=0;i<5;i++)
 {
- if (rollno[i]==searchid)
+ if (rollno[i]==searchroll)
 {
   cout<<"Student Found!";
   return 0;
