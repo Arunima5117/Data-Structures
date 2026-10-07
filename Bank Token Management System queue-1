@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int token[5];
+int front=0;
+int rear=0;
+cout<<"=====Bank Token Management System=====\n";
+cout<<"Enter 5  Token Numbers:";
+for(int i=0; i<5; i++)
+{
+cin>>token[rear];
+rear++;
+}
+cout<<"Token Numbers:";
+while(front<rear)
+{
+cout<<"Token number:"<<token[front]<<endl;
+front++;
+}
+return 0;
+}
